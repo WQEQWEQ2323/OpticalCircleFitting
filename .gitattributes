@@ -1,3 +1,3 @@
+*.pptx filter=lfs diff=lfs merge=lfs -text
 Presentation/20240414.pptx filter=lfs diff=lfs merge=lfs -text
 Presentation/20240311.pptx filter=lfs diff=lfs merge=lfs -text
-*.pptx filter=lfs diff=lfs merge=lfs -text
