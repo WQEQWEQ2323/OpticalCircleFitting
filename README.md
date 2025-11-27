@@ -1,4 +1,7 @@
+# [English](README.md) | [中文](README_zh.md)
+
 # OpticalCircleFitting
+
 My first idea originated from spiral phase contrast imaging and was inspired by the Hough gradient–based circle fitting method.
 
 During my PhD, my initial plan was to further develop my senior colleague’s work on spiral phase contrast imaging. However, I realized that previous research on spiral phase contrast imaging was already quite comprehensive. So I began to study the mathematical and computer-vision interpretation of spiral phase contrast imaging, and I noticed the phase (i.e., the gradient direction) that had been overlooked during the camera capture process.
