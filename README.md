@@ -75,3 +75,4 @@ From here on is my original thinking.
     Of course this sounds very shaky: How to realize spatial filtering in practice? Many cells besides cancer are non-circular. Could the membrane interfere? For internal organ cancers, how to deliver infrared light to the lesion?  
       I’m just tossing out an idea and telling a story. I’m looking forward to researchers’ wisdom.
 
+If you have any question, please tell me. My email:652023340017@smail.nju.edu.cn / 1403650143@qq.com.
