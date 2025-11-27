@@ -11,12 +11,12 @@ This is the first idea that came from my independent thinking, and I’m proud o
    - One is implemented by a 4f system made of two lenses.  
    - The other is implemented through superposition of the device’s transmission function with the phase of a single lens.
 
-   In the file “证明4-f和单透镜.md”, I describe the mechanism in detail and distinguish the differences between these two spatial-filtering systems. The superposition-based system has very high spatial integration, but it has unavoidable defects; the 4f system is more complex spatially, but gives the best spatial-filtering performance.
+   In the file “证明4-f和单透镜.md”/"spatial filtering.md", I describe the mechanism in detail and distinguish the differences between these two spatial-filtering systems. The superposition-based system has very high spatial integration, but it has unavoidable defects; the 4f system is more complex spatially, but gives the best spatial-filtering performance.
 
 2. **After understanding optical convolution, you’ll need some computer vision background.**  
    You should know that gradients, as local information, are often obtained by convolving the image with a small kernel. Since optical systems are linear and compatible with convolution, we use the Sobel operator to extract gradients (the Canny operator is more complex and involves nonlinear operations).  
 
-   In computer vision, due to sampling limits, the Sobel operator only extracts gradients in 8 directions: 0°, 45°, 90°, …, 315°. But optical convolution acts in real physical space and is continuous, unlike the discrete operation in CV. Therefore, we extend SobelX + 1i·SobelY to cover all angles over 360°, i.e., a spiral phase, to extract finer gradients. This is also the principle behind spiral phase contrast imaging. The proof is in “菲涅尔衍射-汉克尔变换-螺旋相称成像.md”.
+   In computer vision, due to sampling limits, the Sobel operator only extracts gradients in 8 directions: 0°, 45°, 90°, …, 315°. But optical convolution acts in real physical space and is continuous, unlike the discrete operation in CV. Therefore, we extend SobelX + 1i·SobelY to cover all angles over 360°, i.e., a spiral phase, to extract finer gradients. This is also the principle behind spiral phase contrast imaging. The proof is in “菲涅尔衍射-汉克尔变换-螺旋相称成像.md”/"spiarl phase contrasting imaging.md".
 
 From here on is my original thinking.
 
